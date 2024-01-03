@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_02_133646) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "conta", force: :cascade do |t|
+  create_table "accounts", force: :cascade do |t|
     t.string "name", default: "", null: false
     t.string "email", default: "", null: false
     t.string "password_digest", default: "", null: false
